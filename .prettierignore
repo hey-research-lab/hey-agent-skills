@@ -1,0 +1,7 @@
+node_modules
+coverage
+pnpm-lock.yaml
+test/fixtures
+scripts/scan.mjs
+# The skill is read by agents: compact Markdown tables, not column-padded ones.
+skills/**/*.md

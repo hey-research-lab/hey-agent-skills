@@ -1,0 +1,47 @@
+{
+  "name": "hey-agent-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent Skills (SKILL.md) and a Claude Code plugin that teach AI agents when and how to use HEY Research Lab for Robinhood Chain builder research.",
+  "license": "MIT",
+  "author": "HEY Research Lab",
+  "type": "module",
+  "homepage": "https://heyresearch.xyz/developers/agents",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hey-research-lab/hey-agent-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hey-research-lab/hey-agent-skills/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@9.15.1",
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "scan": "node scripts/scan.mjs .",
+    "format:check": "prettier --check .",
+    "format": "prettier --write .",
+    "validate:plugin": "claude plugin validate --strict . && claude plugin validate --strict .claude-plugin/plugin.json",
+    "validate:skill": "uvx --from skills-ref agentskills validate skills/hey-research"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0",
+    "vitest": "^4.1.11",
+    "yaml": "^2.9.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "esbuild": "^0.28.1"
+    }
+  }
+}

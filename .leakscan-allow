@@ -1,0 +1,6 @@
+# This repository's subject is the Claude Code plugin format: its docs and tests must name the
+# platform ("Claude Code", `claude plugin validate`) and cite Anthropic's plugin documentation.
+# Only the two bare product-name rules are accepted here; every other attribution rule
+# (trailers, "generated" credits, the emoji) stays an error everywhere.
+(\bC[l]aude\b)
+(A[n]thropic)

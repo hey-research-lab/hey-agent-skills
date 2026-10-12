@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "hey-research": {
+      "type": "http",
+      "url": "https://heyresearch.xyz/mcp",
+      "headers": {
+        "x-hey-integration": "hey-agent-skills/0.1.0"
+      }
+    }
+  }
+}

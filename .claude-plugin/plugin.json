@@ -1,0 +1,15 @@
+{
+  "name": "hey-research",
+  "displayName": "HEY Research",
+  "version": "0.1.0",
+  "description": "Robinhood Chain builder research from HEY Research Lab: which projects are still being built, what they shipped and when, what changed, and what HEY does not know — by name, $TICKER or 0x contract, with evidence ids. Adds the hey-research skill and HEY's hosted, read-only MCP server (no key).",
+  "author": {
+    "name": "HEY Research Lab",
+    "email": "hi@heyresearch.xyz",
+    "url": "https://heyresearch.xyz"
+  },
+  "homepage": "https://heyresearch.xyz/developers/agents",
+  "repository": "https://github.com/hey-research-lab/hey-agent-skills",
+  "license": "MIT",
+  "keywords": ["hey-research", "robinhood-chain", "mcp", "agent-skills", "builders", "research"]
+}

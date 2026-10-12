@@ -1,0 +1,14 @@
+# Optional metadata for OpenAI Codex (display name and the MCP server the skill uses).
+# Other agents ignore this file; SKILL.md is the skill.
+interface:
+  display_name: 'HEY Research'
+  short_description: 'Robinhood Chain builder research: who is still building, what shipped, what changed'
+  default_prompt: 'Use HEY Research Lab to check whether this Robinhood Chain project is still being built and what it shipped.'
+
+dependencies:
+  tools:
+    - type: 'mcp'
+      value: 'hey-research'
+      description: 'HEY Research Lab hosted MCP server (read-only, no key)'
+      transport: 'streamable_http'
+      url: 'https://heyresearch.xyz/mcp'

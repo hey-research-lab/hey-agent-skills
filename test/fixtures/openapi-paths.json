@@ -1,0 +1,155 @@
+{
+  "source": "https://heyresearch.xyz/openapi.json",
+  "recordedAt": "2026-10-13",
+  "openapi": "3.1.0",
+  "apiVersion": "1",
+  "paths": {
+    "/api/projects": [
+      "GET"
+    ],
+    "/api/search/suggest": [
+      "GET"
+    ],
+    "/api/projects/{slug}": [
+      "GET"
+    ],
+    "/api/projects/{slug}/snapshot": [
+      "GET"
+    ],
+    "/api/projects/{slug}/coverage": [
+      "GET"
+    ],
+    "/api/projects/{slug}/explain": [
+      "GET"
+    ],
+    "/api/projects/{slug}/timeline": [
+      "GET"
+    ],
+    "/api/projects/{slug}/history": [
+      "GET"
+    ],
+    "/api/projects/{slug}/diff": [
+      "GET"
+    ],
+    "/api/projects/{slug}/market": [
+      "GET"
+    ],
+    "/api/projects/{slug}/relationships": [
+      "GET"
+    ],
+    "/api/projects/{slug}/contracts": [
+      "GET"
+    ],
+    "/api/compare": [
+      "GET"
+    ],
+    "/api/changes": [
+      "GET"
+    ],
+    "/api/evidence/{id}": [
+      "GET"
+    ],
+    "/api/contracts/{chainId}/{address}": [
+      "GET"
+    ],
+    "/api/token/{chainId}/{address}": [
+      "GET"
+    ],
+    "/api/v1/builder": [
+      "GET"
+    ],
+    "/api/v1/scan": [
+      "GET"
+    ],
+    "/api/ships": [
+      "GET"
+    ],
+    "/api/builders": [
+      "GET"
+    ],
+    "/api/hey/profile": [
+      "GET"
+    ],
+    "/api/agent": [
+      "GET"
+    ],
+    "/api/agent/{capability}": [
+      "GET"
+    ],
+    "/api/receipts/validate": [
+      "POST"
+    ],
+    "/api/a2a": [
+      "POST"
+    ],
+    "/api/status": [
+      "GET"
+    ],
+    "/api/projects/{slug}/usage": [
+      "GET"
+    ],
+    "/api/projects/{slug}/around/{eventId}": [
+      "GET"
+    ],
+    "/api/projects/{slug}/intelligence": [
+      "GET"
+    ],
+    "/api/projects/{slug}/ask": [
+      "GET"
+    ],
+    "/api/projects/{slug}/market-moves": [
+      "GET"
+    ],
+    "/api/projects/{slug}/market-integrity": [
+      "GET"
+    ],
+    "/api/signals": [
+      "GET"
+    ],
+    "/api/signals/{id}": [
+      "GET"
+    ],
+    "/api/chain": [
+      "GET"
+    ],
+    "/api/chain/accelerating": [
+      "GET"
+    ],
+    "/api/chain/build-market": [
+      "GET"
+    ],
+    "/api/chain/comebacks": [
+      "GET"
+    ],
+    "/api/chain/silence": [
+      "GET"
+    ],
+    "/api/chain/contract-changes": [
+      "GET"
+    ],
+    "/api/chain/unlocks": [
+      "GET"
+    ],
+    "/api/v4-hooks": [
+      "GET"
+    ],
+    "/api/v4-hooks/{address}": [
+      "GET"
+    ],
+    "/api/this-week": [
+      "GET"
+    ],
+    "/api/reports/weekly": [
+      "GET"
+    ],
+    "/api/reports/weekly/{week}": [
+      "GET"
+    ],
+    "/api/snapshots": [
+      "GET"
+    ],
+    "/api/token/{chainId}": [
+      "GET"
+    ]
+  }
+}

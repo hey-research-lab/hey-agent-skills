@@ -1,0 +1,18 @@
+{
+  "name": "hey-agent-skills",
+  "description": "HEY Research Lab's plugin for Robinhood Chain builder research: the hey-research skill and HEY's hosted MCP server.",
+  "owner": {
+    "name": "HEY Research Lab",
+    "email": "hi@heyresearch.xyz",
+    "url": "https://heyresearch.xyz"
+  },
+  "plugins": [
+    {
+      "name": "hey-research",
+      "source": "./",
+      "description": "Which Robinhood Chain projects are still being built, what they shipped and what changed, with evidence ids. The hey-research skill plus HEY's hosted, read-only MCP server (no key).",
+      "category": "research",
+      "tags": ["robinhood-chain", "research", "mcp", "builders"]
+    }
+  ]
+}
