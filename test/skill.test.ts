@@ -346,7 +346,7 @@ describe('CLI commands named in the skill exist in @hey-research-lab/cli', () =>
 
   it('uses only real commands', () => {
     const used = markdownFiles.flatMap((f) =>
-      [...read(f).matchAll(/@hey-research-lab\/cli ([a-z-]+)/g)].map((m) => m[1] ?? ''),
+      [...read(f).matchAll(/@hey-research-lab\/cli(?:@\d+\.\d+\.\d+)? ([a-z-]+)/g)].map((m) => m[1] ?? ''),
     );
     expect(used.length).toBeGreaterThanOrEqual(5);
     for (const command of used) expect(COMMANDS, command).toContain(command);

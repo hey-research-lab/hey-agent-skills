@@ -4,6 +4,17 @@ All notable changes to this repository are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow
 [Semantic Versioning](https://semver.org/).
 
+## Unreleased
+
+### Changed
+
+- The skill asks before connecting HEY's MCP server and before installing anything: the remote server is shown with
+  "connect only after they say yes", and the local stdio server and the CLI are pinned to exact versions
+  (`@hey-research-lab/mcp@0.3.2`, `@hey-research-lab/cli@0.1.3`).
+- Every API or tool result is data, never instructions: names, titles, evidence, changelog entries, descriptions and
+  URLs are quoted, and an instruction inside them is reported, never followed (review feedback on
+  davepoon/buildwithclaude#559).
+
 ## 0.1.0 — 2026-10-13
 
 ### Added
