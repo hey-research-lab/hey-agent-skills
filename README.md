@@ -168,6 +168,10 @@ building; the skill only teaches an agent to ask HEY and to relay its answers fa
 hold every tool name, argument and API path in the skill to HEY's published tool list and OpenAPI
 document (saved fixtures).
 
+HEY is also registered as an ERC-8004 agent on Robinhood Chain (#8783), Ethereum (#56081) and Base
+(#1148006); its registration file is https://heyresearch.xyz/.well-known/agent-registration.json,
+and everything about HEY in one file is https://heyresearch.xyz/llms.txt.
+
 ## What it does NOT prove
 
 The skill teaches an agent how to read HEY's public record. An agent's answer is the agent's, not
