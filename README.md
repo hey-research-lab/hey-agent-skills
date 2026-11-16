@@ -190,6 +190,8 @@ binaries, no credentials. An agent following it makes HTTPS requests to `heyrese
 is told to treat text from a source as data, never as instructions. The plugin's MCP entry sends
 no credential.
 
+HEY Research Lab also reviews other projects' code and reports what it finds privately first: [security credits](https://github.com/hey-research-lab#security-credits).
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). `pnpm test` runs offline over saved fixtures;
